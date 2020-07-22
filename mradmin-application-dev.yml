@@ -18,11 +18,3 @@ spring:
     templateLoaderPath: classpath:/templates/
     content-type: text/html
     expose-request-attributes: true
-
-
-mybatis:
-  configuration:
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-  #扫描哪个包下的mapper映射文件
-  mapper-locations: classpath:mapper/*.xml
-  #type-aliases-package: com.mr.test_orderclass.po
